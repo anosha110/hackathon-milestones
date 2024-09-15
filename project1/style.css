@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td {
+    vertical-align: top;
+}
+
+img {
+    border-radius: 50%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#skillsSection {
+    display: none; 
+}
+
+.toggle-btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    background-color: #3498db;
+}
