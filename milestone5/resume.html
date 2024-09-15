@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View and Edit Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>View and Edit Resume</h1>
+    <form id="edit-resume">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" readonly />
+            
+            <label for="name">Name</label>
+            <input type="text" id="name" required />
+            
+            <label for="email">Email</label>
+            <input type="text" id="Email" required />
+            
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" required />
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <textarea id="Education" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <textarea id="Experience" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <textarea id="skills" rows="4" required></textarea>
+        </fieldset>
+        <br>
+        <button type="submit"><b>Update Resume</b></button>
+    </form>
+    <script src="resume.js"></script>
+</body>
+</html>
